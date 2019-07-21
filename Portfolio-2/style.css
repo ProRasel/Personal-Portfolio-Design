@@ -9,12 +9,12 @@ a {text-decoration: none;transition: all 0.3s ease-in-out; }a:hover, a:focus {te
 
 .row.m0 {
   margin: 0px; }
-h1,h2,h3,h4,h5,h6{font-family:Heebo,sans-serif;font-weight:700;margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-family:Heebo,sans-serif;font-weight:700;margin:0;padding:0;line-height: 1.2;}
 .p0{padding-left:0;padding-right:0}.pd-15{padding-left:15px}.p_120{padding-top:120px;padding-bottom:120px}.p_100{padding-top:100px;padding-bottom:100px}.pad_top{padding-top:120px}.pad_bt{padding-bottom:120px}.mt-25{margin-top:25px}
 
 @media (min-width: 1620px) {
   .box_1620 {
-        max-width: 1620px !important;
+    max-width: 1620px !important;
     margin: auto;
     width: 100%;
     padding-left: 0px;
@@ -26,6 +26,10 @@ body {
     font-weight: normal;
     color: #777777;
 }
+@media (min-width: 1200px){
+.container {
+    max-width: 1170px;
+}}
 /* End Main Title Area css */
 .header_area {position: absolute;width: 100%;top: 0;left: 0;z-index: 99;transition: background 0.4s, all 0.3s linear;}
  
