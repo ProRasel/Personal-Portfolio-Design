@@ -2,7 +2,6 @@
 *, ::after, ::before {box-sizing: border-box;}
 body {
   margin: 0;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -28,28 +27,13 @@ a:hover, a:focus {text-decoration: none;outline: none;}
 .row {display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-right: -15px;margin-left: -15px;}
 .col-box-4 {-ms-flex: 0 0 33.333333%;flex: 0 0 33.333333%;max-width: 33.333333%;}
 .col-box-6 {-ms-flex: 0 0 50%;flex: 0 0 50%;max-width: 50%;}
-.col-box-4,.col-box-6 {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;}
+.col-box-4,.col-box-6{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}
 
-@media (min-width: 1620px) {
-  .box_1620 {
-    max-width: 1620px !important;
-    margin: auto;
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;}
-
-.home_banner_area .banner_inner .banner_content .media .d-flex {padding-right: 120px;}}
-
-/* Home Banner Area css */
+/*----------------------------------------------------*/
 .home_banner_area {
   position: relative;
   z-index: 1;
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
   margin-bottom: 200px;}
 
 .home_banner_area .box_1620 {
@@ -67,46 +51,43 @@ a:hover, a:focus {text-decoration: none;outline: none;}
   position: relative;}
 .home_banner_area .banner_inner .banner_content .media .d-flex img{width: 93%;}
 .media-body {-ms-flex: 1;flex: 1;padding-top: 125px;}
-
-/* ---------------- */
+/*----------------------------------------------------*/
+.counter-box{padding-top: 25px;}
 .wel_item {
   border: 1px solid #eeeeee;
   padding: 20px 20px;
   border-radius: 5px;
+  text-align: center;
+  background: #faf8ff;
 }
 .personal_text h3 {
   font-size: 48px;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: #222222;}
-
+  color: #222222;
+}
 .personal_text .basic_info li {
-  margin-bottom: 15px;}
+    margin-bottom: 10px;}
 .personal_text .basic_info li a {
   position: relative;
-  padding-left: 40px;
+  padding-left: 35px;
   font-size: 16px;
   color: #777777;}
-
+.basic_info{padding-top: 30px;}
 /*----------------------------------------------------*/
 .containerx, .welcome_text h2 {
   margin-bottom: 18px;
-  color: #333;}
-.horizontal .progress-bar {
-  float: left;
-  height: 45px;
-  width: 100%;
-  padding: 12px 0;
-  background-color: transparent;}
+  color: #333;
+    margin-top: 10px;}
+.about_img img {
+    width: 500px;}
 
-.horizontal .progress-fill {position: relative;height: 22px;color: #fff;text-align: center;font-family: Lato,Verdana,sans-serif;font-size: 12px;line-height: 20px;}
+@media (min-width: 1620px) {
+  .box_1620 {
+    max-width: 1620px !important;
+    margin: auto;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;}
 
-.html-progress {background-color: #7b91ff;width: 92%;}
-.js-progress {background-color: #53bfff;width: 85%;}
-.wordpress-progress {background-color: #efc73e;width: 75%;}
-.ps-progress {background-color: #20c476;width: 95%;}
-.java-progress {background-color: #f87173;width: 70%;}
-.rounded .progress-track,.rounded .progress-fill {
-  border-radius: 10px;
-  box-shadow: inset 0 0 5px rgba(0,0,0,.2);
-}
+.home_banner_area .banner_inner .banner_content .media .d-flex {padding-right: 120px;}}
