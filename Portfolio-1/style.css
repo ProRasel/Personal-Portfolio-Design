@@ -12,10 +12,13 @@
  h1,h2,h3,h4,h5,h6 {font-family: "Rubik", sans-serif;font-weight: 500;color: #000000;}
 a {text-decoration: none;transition: all 0.3s ease-in-out;}
 a:hover, a:focus {text-decoration: none;outline: none;}
+.text-center{text-align: center;}
 
 .container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
 .container{max-width:1140px}
 .row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}
+.box-size-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%;vertical-align:middle;align-self:center;float:left}
+.box-size-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}
 
 .primary_btn {
     color: #fff;
@@ -24,23 +27,9 @@ a:hover, a:focus {text-decoration: none;outline: none;}
     font-weight: 500;
     border-radius: 20px;}
 .primary_btn span {padding: 0 42px;}
-.box-size-6 {
-     -ms-flex: 0 0 50%;
-     flex: 0 0 50%;
-     max-width: 50%;
-     vertical-align: middle;
-    align-self: center;
-    float: left;}
-.box-size-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;}
 .sub-title{
     font-size: 24px;
     margin-bottom: 35px;}
- .left-item{
-     justify-content: flex-end;
-     padding-right: 10px;}
 
 /* Main Title Area css */
 .about_area{padding: 130px 0;}
@@ -52,10 +41,11 @@ a:hover, a:focus {text-decoration: none;outline: none;}
      font-size: 36px;
      font-weight: 700;
      margin-bottom: 15px;
-     line-height: 50px;
-     text-transform: uppercase;}
-.main_title p{padding-bottom: 10px;}
+     line-height: 50px;}
+.main_title p{padding: 40px 0px;}
+
 /* ------------------ */
+.service-title {width: 100%;}
  .home_banner_area {
      z-index: 1;
      background: url(img/banner/home-banner.png) no-repeat scroll center center;
@@ -73,62 +63,32 @@ a:hover, a:focus {text-decoration: none;outline: none;}
      background: #fcf9fe;
      padding: 40px;
      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.06);}
-.statistics_area {
-  position: relative;
-  margin-top: -165px;}
-  
-.statistics_item {
-  text-align: center;
-  margin: 10px;
-  padding: 19px 19px;
-  background: #f7f8ff;
-  border-radius: 5px;
-  border-bottom: 2px solid #8293ff;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.07);}
 
-.statistics_item p {
-  margin-bottom: 0;
-  font-size: 16px;
-  line-height: 24px;}
 /* --------------------- */
  .features_area { padding-bottom: 170px; }
  .feature_item {
      padding: 45px 25px;
      text-align: center;
      background: #ecf7fb;
-     margin-right: 10px;
-     transition: all 0.4s ease 0s;}
-
- .feature_item img {margin-bottom: 35px;}
+     margin-right: 10px;}
  .feature_item h4 {
      font-size: 20px;
-     margin-bottom: 20px;
-     text-transform: uppercase;}
- .feature_item p {margin-bottom: 0px;}
- .feature_item:hover {
-     box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
-     background: #fff;}
+     margin-bottom: 20px;}
 /* --------------------- */
 .bio-area{
     background-color: #f7f8ff;
     padding: 140px 140px;}
- .education {
-      background: #ffffff;
-     border-radius: 5px;
-     padding: 55px 30px 60px;
-     margin: 10px;
-     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.06);}
-
-.education-border {border-left: 1px solid rgba(137, 130, 247, .2)}
-.edu-item {padding-left: 15px;padding-bottom: 30px;}
 .item-header {padding-bottom: 15px}
-.item-header p {
-     color: #8845f4;
-    font-size: 14px;
-     line-height: 21px }
- .item-header h6 {
+.item-header p {color: #8845f4;}
+.item-header h6 {
     line-height: 16px;
-    position: relative;
     font-size: 16px;
     margin: 0px;}
 
+.education {
+     background: #ffffff;
+     padding: 55px 30px 60px;
+     margin: 10px;
+     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.06);}
+.education-border {border-left: 1px solid rgba(137, 130, 247, .2)}
+.edu-item {padding-left: 15px;padding-bottom: 30px;}
