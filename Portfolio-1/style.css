@@ -90,5 +90,5 @@ a:hover, a:focus {text-decoration: none;outline: none;}
      padding: 55px 30px 60px;
      margin: 10px;
      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.06);}
-.education-border {border-left: 1px solid rgba(137, 130, 247, .2)}
-.edu-item {padding-left: 15px;padding-bottom: 30px;}
+
+.edu-item {padding-left: 15px;padding-bottom: 30px;border-left: 1px solid rgba(137, 130, 247, .2)}
